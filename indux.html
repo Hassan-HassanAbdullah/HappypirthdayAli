@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <canvas id="birthdayCanvas"></canvas>
+
+  <div class="content">
+    <h1>Happy Birthday, <span id="friendName">Ali</span>! 🎉</h1>
+    <p>Wishing you a year filled with happiness and success!</p>
+    <p id="gift-message">A small gift from Hassan Abdullah 🎁</p>
+    <button id="surpriseButton">Click for Surprise 🎁</button>
+  </div>
+
+  <!-- Slideshow Modal -->
+  <div id="slideshowModal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <div class="slideshow">
+        <div class="slide">
+          <img src="./images/ali/Ali.webp" alt="Memory 1">
+          <p>"Every moment spent with you is a special memory!"</p>
+        </div>
+        <div class="slide">
+          <img src="./images/ali/Ali1.webp" alt="Memory 2">
+          <p>"Here's to more laughter, love, and adventures ahead!"</p>
+        </div>
+        <div class="slide">
+          <img src="./images/ali/Ali2.webp" alt="Memory 2">
+          <p>"Having a friend like you is the best gift I could ever ask for. Happy birthday!"</p>
+        </div>
+        <div class="slide">
+          <img src="./images/ali/Ali3.webp" alt="Memory 2">
+          <p>"Friends like you are rare treasures. I’m so lucky to have you in my life!"</p>
+        </div>
+        <div class="slide">
+          <img src="./images/ali/ali1.jpg" alt="Memory 3">
+          <p>"You make every day brighter, just by being you."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <audio id="birthdayMusic" loop>
+    <source src="./audio/HAPPY BIRTHDAY INSTRUMENTAL (mp3cut.net).m4a" type="audio/mpeg">
+  </audio>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
